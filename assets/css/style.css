@@ -642,7 +642,7 @@ header .header-inner .mobile-menu {
 
 /* ========================================================footer=======================================*/
 footer {
-    background-color: #333333;
+    background-color: #000;
 }
 
 .education {
@@ -699,21 +699,27 @@ footer {
 }
 
 .about-us p {
-    color: #63abf8;
+    color: #fff;
     padding-bottom: 25px;
     font-weight: 700;
 }
 
 .about-us ul li {
     padding: 12px 0px;
+    color: rgb(159, 159, 160);
 }
 
-.about-us ul li a {
+.about-us ul li p {
+    display: inline-block;
     color: #fff;
 }
 
+.about-us ul li a {
+    color: rgb(159, 159, 160);
+}
+
 .about-us ul li a:hover {
-    color: blue;
+    color: #fff;
 }
 
 .about-us ul li span {
@@ -730,18 +736,18 @@ footer {
 
 .copyright-policy ul {
     display: flex;
-    color: #ffffff80;
+    color: rgb(159, 159, 160);
     font-weight: normal;
 }
 
 .copyright-policy ul li a {
-    color: #fff;
+    color: rgb(159, 159, 160);
     padding-left: 20px;
 
 }
 
 .copyright-policy ul li a:hover {
-    color: blue;
+    color: #fff;
 
 }
 
@@ -985,7 +991,7 @@ i.fa-solid.fa-arrow-up-long {
 .research-mid img {
     max-width: 10%;
     position: absolute;
-    bottom: 38%;
+    bottom: 41%;
     left: 45%;
     transition: 0.4s;
 }
@@ -997,7 +1003,7 @@ i.fa-solid.fa-arrow-up-long {
 /* Actionab-section */
 .Actionable {
     background: #fafafa;
-    padding: 70px 0px;
+    padding-bottom: 40px;
 }
 
 .Actionable-inner {
@@ -1061,7 +1067,7 @@ i.fa-solid.fa-arrow-up-long {
 /* ----onsite-section ----- */
 .onsite {
     background: #fafafa;
-    padding: 70px 0px 130px 0px;
+    padding: 45px 0px 70px 0px;
 }
 
 .onsite-inner {
@@ -1069,7 +1075,7 @@ i.fa-solid.fa-arrow-up-long {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    padding: 40px 50px;
+    padding: 22px 44px;
     border-radius: 18px;
     background: #6380f2;
 }
@@ -1361,8 +1367,9 @@ ul.blog-play li:nth-child(2) {
 
 .blog-onsite {
     background: #fafafa;
-    padding: 30px 0px 130px 0px;
+    padding-bottom: 70px;
 }
+
 
 /* -----------------------------------process-page -----------------------------------------*/
 

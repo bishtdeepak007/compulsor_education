@@ -8,6 +8,10 @@ $('.owl-one').owlCarousel({
     autoplayTimeout: 3000,
 })
 
+const date = new Date();
+let year = date.getFullYear()
+document.getElementById("year").innerHTML = year
+
 // --------------------------------------------onclick function in menu-icon
 document.querySelector(".menu-icon").addEventListener("click", function () {
     document.querySelector("header").classList.toggle("active");
