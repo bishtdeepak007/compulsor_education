@@ -284,6 +284,10 @@ header .header-inner .mobile-menu {
 }
 
 .banner-section-inner-right img:hover {
+    border: 1px solid #298ffd;
+}
+
+.banner-section-inner-right img:hover {
     transform: scale(1.04);
 }
 
@@ -344,10 +348,38 @@ header .header-inner .mobile-menu {
     padding: 22px;
     background: rgba(99, 171, 248, 0.1);
     transition: 0.4s;
+    position: relative;
+}
+
+.increase-features::after {
+    content: "";
+    background: #3f78f3;
+    height: 100%;
+    width: 0%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    border-radius: 9px;
+    transition: 0.5s ease;
+    z-index: -1;
+}
+
+.increase-features:hover::after {
+    width: 100%;
+    left: 0;
 }
 
 .increase-features:hover {
     transform: scale(1.03);
+}
+
+.increase-features:hover .increase-icon-content h6,
+.increase-icon-content p {
+    color: #fff;
+}
+
+.increase-features:hover .increase-icon-content p {
+    color: #fff;
 }
 
 .increase-icon {
@@ -356,6 +388,11 @@ header .header-inner .mobile-menu {
     background: #3f78f3;
     border-radius: 50%;
     position: relative;
+}
+
+.increase-features:hover .increase-icon {
+    background: #298ffd;
+    border: 1px solid #fff;
 }
 
 .increase-icon img {
@@ -376,6 +413,7 @@ header .header-inner .mobile-menu {
 .increase-icon-content p {
     padding-top: 6px;
     box-sizing: border-box;
+    color: #000;
 }
 
 .increase-icon-content h6 {
@@ -404,6 +442,12 @@ header .header-inner .mobile-menu {
     box-sizing: border-box;
     margin-left: 31px;
     transition: 0.4s;
+}
+
+.transforming-section-inner-left>img:hover {
+
+    box-shadow: none;
+
 }
 
 .transforming-section-inner-left img:hover {
@@ -786,11 +830,12 @@ footer {
     text-decoration: none;
     padding: 9.5px 14.5px;
     background: #3f78f3;
-    border-radius: 50%;
+    border-radius: 7px;
     position: fixed;
     bottom: 20px;
     right: 14px;
     text-align: center;
+    border: 1px solid #3f78f3;
 }
 
 .top {
@@ -801,9 +846,14 @@ footer {
     background-color: #ffffff;
 }
 
+.scroll a:hover i.fa-solid.fa-arrow-up-long {
+    color: #000;
+}
+
 i.fa-solid.fa-arrow-up-long {
     padding: 0px;
     margin: 0px;
+    color: #fff;
 }
 
 

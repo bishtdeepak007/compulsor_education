@@ -1,6 +1,6 @@
 
 $('.owl-one').owlCarousel({
-    loop: false,
+    loop: true,
     items: 1,
     paginationSpeed: 3000,
     autoplay: true,
